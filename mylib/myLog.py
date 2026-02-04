@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# -*- coding: utf-8 -*-
 import sys
 import logging
 
@@ -17,6 +16,5 @@ def get_log(args):
     log.addHandler(handler)
     # log.info("Init Log at file %s" % (args.log if args.log is not None else "<stdout>"))
     return log
-
 
 
